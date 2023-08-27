@@ -7,7 +7,7 @@ input_path = "I:/Pandas/pandas/csv/Salary.csv"
 pds = pd.read_csv(input_path)
 
 pds = pds.fillna(20)
-
+# pds = pds.dropna()
 # Calculate the "Total" column
 pds["Total"] = pds["YearsExperience"] + pds["Salary"]
 
