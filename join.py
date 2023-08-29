@@ -18,3 +18,10 @@ print("inner\n", pd.merge(pds, pds2, on="Name", how="inner"))
 print("outer\n", pd.merge(pds, pds2, on="Name", how="outer"))
 print("left\n", pd.merge(pds, pds2, on="Name", how="left"))
 print("right\n", pd.merge(pds, pds2, on="Name", how="right"))
+
+# if and only if no same column in sheets
+print("\n\nif no same column")
+print("inner\n", pd.merge(pds, pds2, left_on="Name", right_on="Name", how="inner"))
+print("outer\n", pd.merge(pds, pds2, left_on="Name", right_on="Name", how="outer"))
+print("left\n", pd.merge(pds, pds2, left_on="Name", right_on="Name", how="left"))
+print("right\n", pd.merge(pds, pds2, left_on="Name", right_on="Name", how="right"))
