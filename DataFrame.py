@@ -1,6 +1,6 @@
 import pandas as pd
 
-path = "I:\Pandas\pandas\csv\BDUNI.csv"
+path = "C:/Users/Ovi/PycharmProjects/pandas_practice/csv/BDUNI.csv"
 pds = pd.read_csv(path)
 
 

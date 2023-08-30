@@ -1,6 +1,6 @@
 import pandas as pd
 
-input_path = "I:/Pandas/pandas/csv/Salary.csv"
+input_path = "C:/Users/Ovi/PycharmProjects/pandas_practice/csv/Salary.csv"
 
 # Read the CSV file into a DataFrame
 pds = pd.read_csv(input_path)

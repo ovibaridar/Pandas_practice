@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Input file path
-input_path = "I:/Pandas/pandas/csv/Book1.xlsx"
+input_path = "C:/Users/Ovi/PycharmProjects/pandas_practice/csv/Book1.xlsx"
 
 # Read the Excel file into DataFrames for each sheet
 pds = pd.read_excel(input_path, sheet_name='s1')
