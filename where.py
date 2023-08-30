@@ -15,4 +15,5 @@ xl["Math"] = xl["Math"].where(xl["Math"] < 80, "A+")
 
 xl.to_excel("I:/Pandas/pandas/csv/NEw2.xlsx", index=False)
 
-print("done")
+print("done and ok")
+
