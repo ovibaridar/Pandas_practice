@@ -1,6 +1,6 @@
 import pandas as pd
 
-path = "I:/Pandas/pandas/csv/NEw.xlsx"
+path = "C:/Users/Ovi/PycharmProjects/pandas_practice/csv/NEw.xlsx"
 
 xl = pd.read_excel(path)
 
@@ -13,7 +13,6 @@ xl["Bangla"] = xl["Bangla"].where(xl["Bangla"] < 80, "A+")
 xl["English"] = xl["English"].where(xl["English"] < 80, "A+")
 xl["Math"] = xl["Math"].where(xl["Math"] < 80, "A+")
 
-xl.to_excel("I:/Pandas/pandas/csv/NEw2.xlsx", index=False)
+xl.to_excel("C:/Users/Ovi/PycharmProjects/pandas_practice/csv/NEw2.xlsx", index=False)
 
 print("done and ok")
-
