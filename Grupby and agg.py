@@ -22,3 +22,4 @@ product = [
 Dataset = pd.DataFrame(product, columns=["Name", "Price", "District"])
 Dataset2 = Dataset.groupby("Name")
 print(Dataset2[["Price", "District"]].agg(["min", "max","count"]))
+print("\n done")
